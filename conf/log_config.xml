@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<log>
+  <config>
+    <format>%(asctime)s - %(name)s - %(levelname)s - %(message)s</format>
+    <file_config to_file="false" rotation="true" console="false" 
+                 msecs="true">
+      <file_format>logs/hpy.log</file_format>
+      <backup_count>100</backup_count>
+      <max_bytes>1000000</max_bytes>
+    </file_config>
+    <default_level>critical</default_level>
+  </config>
+  <level>
+    <hpy>error</hpy>
+  </level>
+</log>

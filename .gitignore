@@ -1,0 +1,25 @@
+# .gitignore file
+# The following files/folders will be ignored.
+
+*
+!*/
+
+*~
+
+# Add your build folders here
+
+
+# Exceptions, the following files/folders WONT be ignored.
+
+!*.tar.gz
+
+!*.xml
+
+!.gitignore
+
+!AUTHORS
+!LICENSE
+!COPYING
+!ChangeLog
+!NEWS
+!README.md

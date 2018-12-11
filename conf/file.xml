@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<file>
+  <!-- CameraConfig -->
+  <CameraConfig type="extension">
+    <configuration_id  type="data"></configuration_id>
+    <cs_serial type="data"></cs_serial>
+    <data_model_version type="data"></data_model_version>
+    <date type="data"></date>
+    <expected_pixels_id type="data"></expected_pixels_id>
+    <num_pixels type="data"></num_pixels>
+    <num_samples type="data"></num_samples>
+    <telescope_id type="data"></telescope_id>
+    <lstcamconfig type="group" group="CameraConfig" name="LstCamConfig"></lstcamconfig>
+    <lstcam_algorithms type="data" group="lstcamconfig" name="algorithms"></lstcam_algorithms>
+    <lstcam_cdhs_version type="data" group="lstcamconfig" name="cdhs_version"></lstcam_cdhs_version>
+    <lstcam_expected_modules_id type="data" group="lstcamconfig" name="expected_modules_id"></lstcam_expected_modules_id>
+    <lstcam_idaq_version type="data" group="lstcamconfig" name="idaq_version"></lstcam_idaq_version>
+    <lstcam_num_modules type="data" group="lstcamconfig" name="num_modules"></lstcam_num_modules>
+    <lstcam_pre_proc_algorithms type="data" group="lstcamconfig" name="pre_proc_algorithms"></lstcam_pre_proc_algorithms>
+  </CameraConfig>
+  <!-- Events -->
+  <Events type="extension">
+  <configuration_id type="data"></configuration_id>
+    <event_id type="data"></event_id>
+    <ped_id type="data"></ped_id>
+    <pixel_status type="data"></pixel_status>
+    <tel_event_id type="data"></tel_event_id>
+    <trigger_time_qns type="data"></trigger_time_qns>
+    <trigger_time_s type="data"></trigger_time_s>
+    <trigger_type type="data"></trigger_type>
+    <waveform type="data"></waveform>
+    <lstcamevent type="group" group="Events" name="LstCamEvent"></lstcamevent>
+    <cdts_data type="group" group="lstcamevent" name="CDTS_Data"></cdts_data>
+    <lstcam_cdts_data type="data" group="cdts_data" name="cdts_data"></lstcam_cdts_data>
+    <swat_data type="group" group="lstcamevent" name="SWAT_Data"></swat_data>
+    <lstcam_swat_data type="data" group="swat_data" name="swat_data"></lstcam_swat_data>
+    <tib_data type="group" group="lstcamevent" name="TIB_Data"></tib_data>
+    <lstcam_tib_data type="data" group="tib_data" name="tib_data"></lstcam_tib_data>
+    <lstcam_chips_flags type="data" group="lstcamevent" name="chips_flags"></lstcam_chips_flags>
+    <lstcam_counters type="data" group="lstcamevent" name="counters"></lstcam_counters>
+    <lstcam_drs_tag type="data" group="lstcamevent" name="drs_tag"></lstcam_drs_tag>
+    <lstcam_drs_tag_status type="data" group="lstcamevent" name="drs_tag_status"></lstcam_drs_tag_status>
+    <lstcam_extdevices_presence type="data" group="lstcamevent" name="extdevices_presence"></lstcam_extdevices_presence>
+    <lstcam_first_capacitor_id type="data" group="lstcamevent" name="first_capacitor_id"></lstcam_first_capacitor_id>
+    <lstcam_module_status type="data" group="lstcamevent" name="module_status"></lstcam_module_status>
+  </Events>
+</file>
