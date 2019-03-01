@@ -11,6 +11,6 @@
     <default_level>critical</default_level>
   </config>
   <level>
-    <hpy>info</hpy>
+    <hpy>error</hpy>
   </level>
 </log>
