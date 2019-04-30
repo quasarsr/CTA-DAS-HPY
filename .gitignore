@@ -12,6 +12,7 @@
 # Exceptions, the following files/folders WONT be ignored.
 
 !*.tar.gz
+!*.py
 
 !*.xml
 
